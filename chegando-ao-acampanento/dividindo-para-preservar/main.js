@@ -10,11 +10,11 @@
 
 import func from '../../auxiliaryFunctions.js';
 
-const t1 = [250];
-const t2 = [15];
-const t3 = [2];
+const test1 = [250];
+const test2 = [15];
+const test3 = [2];
 
-func.getAppetizer(t2);
+func.getAppetizer(test2);
 
 let id = parseInt(func.gets());
 
