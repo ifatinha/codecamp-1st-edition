@@ -11,11 +11,18 @@
 
 import func from '../../auxiliaryFunctions.js';
 
-let test = [10];
+let test = [5];
 func.getAppetizer(test);
 
 let id = parseInt(func.gets());
 
-if (id === 10){
-    func.print();
+if (id === 10) {
+    func.print("Plantar!");
+} else {
+    let temp = (id - 10);
+    if (id > 10) {
+        func.print(`O buraco deve retroceder ${temp} metros`)
+    } else {
+        func.print(`O buraco deve avançar ${Math.abs(temp)} metros`)
+    }
 }
